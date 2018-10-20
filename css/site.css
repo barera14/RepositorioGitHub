@@ -1,0 +1,40 @@
+/* clase para eliminar margenes internas */
+.no-padding{
+    padding:0 !important;
+}
+.margin-b-20{
+    margin-bottom:200px; 
+    height: 10%;
+}
+.color-rojo:hover{
+    color:#ff0000;
+}
+/* POR ELEMENTOS*/
+.col-md-4 span{
+    border: 2px solid #00ff00;
+    background:#000 ;
+}
+.col-md-6{
+    border:3px dotted #0000ff;
+}
+#alto{
+    height: 20vh;
+    background-color: #0f0f0f;  
+}
+.col-md-4:hover{
+    background-color: #0f0;
+    transition: background-color 2s;
+
+}
+.col-md-4{
+    transition: background-color 2s;
+}
+.col-md-6{
+    border-radius: 50%;
+}
+.col-md-4::before{
+    content: 'xxx';
+}
+.col-md-4::after{
+    content: 'yyy';
+}
